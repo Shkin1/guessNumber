@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>猜数字</title>
+    <style>
+        body{
+            background-color: #cccccc;
+
+        }
+        h2{
+            padding-left:600px;
+            text-align:left;
+            color: lightseagreen;
+        }
+
+        hr{
+            color: deepskyblue;
+        }
+
+        table{
+            padding-left: 500px;
+
+        }
+
+        form{
+
+            width: 300px;
+            height:300px;
+            border-radius: 10%;
+            border: 1px solid deepskyblue;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<h2 >猜数字</h2>
+
+<hr/>
+
+<table >
+    <tr>
+        <td>
+            <form action="guessNumber02.jsp" method="get">
+                <br>
+            <label for="guessNum">请在下方输入猜测数字:</label><br>
+                <br>
+            <input type="number" max="100" min="1" name="guessNumber" id="guessNum">
+            <input type="submit" value="submit" class="button">
+
+        </form>
+        </td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
