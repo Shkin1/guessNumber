@@ -57,6 +57,6 @@ p{
     n++;
     session.setAttribute("count", n);
 %>
-<a href="返回接着玩！"></a>
+
 </body>
 </html>
