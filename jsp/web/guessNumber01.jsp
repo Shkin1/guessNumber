@@ -16,7 +16,7 @@
     h2{
         padding-left: 550px;
         text-align:left;
-        color: lightseagreen;
+        color: aliceblue;
     }
 
     p{
