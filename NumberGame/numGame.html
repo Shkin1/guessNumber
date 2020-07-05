@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<div class="container">
+	<div class="rule">
+		<p class="title rtitle">游戏规则</p>
+		<div class="content">
+			<p>
+				点击“开始游戏”，系统会随机产生四位数字，即本场游戏的你要猜的最终结果。玩家在输入框中输入四个数字(0-9)，点击<b>‘GO’</b>系统会判断你当前输入与系统产生的数字匹配程度。
+			</p>
+			<p>
+				如果输入的数字与系统产生的不相同，在检测结果下会显示玩家输入的数字并以字符*A*B提示玩家：('*'为数字,'A'表示数字正确且位置正确,'B'表示数字正确但位置不正确)。如:'0A1B':表示有0个数据位置都正确，1个数据正确但位置不正确。
+			</p>
+			<p>
+				如果输入的数字与系统产生的相同，在"结果"栏中显示最终结果如：1234 '4A0B' 恭喜你输入正确，此时游戏结束
+			</p>
+		</div>
+	</div>
+	<div class="gbody">
+			<form >
+				<input type="checkbox" id="box" class="box">不出现重复数字
+			</form>		
+		<a href="#" id="started"><p class="title gtitle">开始游戏</p></a>
+		<p class="status" id="status">点击“开始游戏”进入游戏状态</p>	
+		
+		<div class="form">
+			<form action="" name="myform" id="form">
+				<input type="text" name="text" id="0" maxlength="1"/>
+				<input type="text" name="text" id="1" maxlength="1"/>
+				<input type="text" name="text" id="2" maxlength="1"/>
+				<input type="text" name="text" id="3" maxlength="1"/>
+				<input type="button" class="go" id="submit" value="Submit"/>
+			</form>
+		</div>
+		<div class="result" id="result">
+		</div>
+	</div>	
+	</div>
+	<script type="text/javascript" src="lib.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
+
+
