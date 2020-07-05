@@ -6,7 +6,9 @@
     <style>
 p{
     text-align: center;
+    font-family: "Courier New";
 }
+
     </style>
 </head>
 <body>
@@ -46,7 +48,7 @@ p{
         }
         if(n==10){
             alert("游戏结束！")
-            window.location.href='guessNumber01';
+            window.location.href='guessNumber01.jsp';
             window.event.returnValue=false;
         }
     }
@@ -55,6 +57,6 @@ p{
     n++;
     session.setAttribute("count", n);
 %>
-
+<a href="返回接着玩！"></a>
 </body>
 </html>

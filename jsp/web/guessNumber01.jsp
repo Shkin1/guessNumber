@@ -36,7 +36,7 @@
 
 <form action="guessNumber02.jsp" method="post">
     <div>
-        <p ><input type="submit" value="开始游戏！"></p>
+        <p ><input type="submit" value="开始游戏吧！"></p>
     </div>
 
 </form>
